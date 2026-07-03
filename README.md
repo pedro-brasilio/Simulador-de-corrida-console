@@ -1,0 +1,57 @@
+# Sistema de Controle de Carros em C#
+
+Projeto simples desenvolvido em C# para praticar conceitos de Programação Orientada a Objetos (POO), incluindo classes, propriedades, encapsulamento, construtores, validações e métodos.
+
+## Sobre o projeto
+
+O programa simula o controle de velocidade de carros. Cada carro possui um modelo e começa com velocidade igual a `0 km/h`.
+
+O sistema permite acelerar e brecar os veículos, validando os valores informados e impedindo que a velocidade fique negativa.
+
+## Funcionalidades
+
+- Criar carros com um modelo definido;
+- Iniciar cada carro com velocidade igual a `0 km/h`;
+- Acelerar o carro com valores maiores que zero;
+- Brecar o carro com valores maiores que zero;
+- Impedir que a velocidade fique negativa;
+- Validar modelos vazios ou inválidos;
+- Exibir no terminal a velocidade atual após cada ação.
+
+## Conceitos aplicados
+
+- Programação Orientada a Objetos (POO);
+- Classes e objetos;
+- Encapsulamento;
+- Propriedades com leitura e escrita controladas;
+- Construtores;
+- Validação de dados;
+- Tratamento de exceções;
+- Métodos para representar comportamentos do objeto.
+
+## Exemplo de execução
+
+```text
+O carro Sedan acelerou e agora está a 30 km/h.
+O carro Hetch acelerou e agora está a 40 km/h.
+O carro Sedan brecou e agora está a 20 km/h.
+O carro Hetch brecou e agora está a 0 km/h.
+```
+
+## Tecnologias utilizadas
+
+- C#
+- .NET
+- Console Application
+
+## Como executar
+
+1. Clone ou baixe este repositório;
+2. Abra o projeto no Visual Studio ou no VS Code;
+3. Execute o projeto utilizando o terminal ou a opção de execução da IDE;
+4. Acompanhe o resultado exibido no console.
+
+## Autor
+
+Pedro Luciano Brasilio dos Santos  
+Estudante de Análise e Desenvolvimento de Sistemas.
