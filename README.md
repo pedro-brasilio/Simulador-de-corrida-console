@@ -1,4 +1,4 @@
-# Sistema de Controle de Carros em C#
+# Simulador de Corrida
 
 Projeto simples desenvolvido em C# para praticar conceitos de Programação Orientada a Objetos (POO), incluindo classes, propriedades, encapsulamento, construtores, validações e métodos.
 
@@ -33,23 +33,47 @@ O sistema permite acelerar e brecar os veículos, validando os valores informado
 
 ```text
 O carro Sedan acelerou e agora está a 30 km/h.
-O carro Hetch acelerou e agora está a 40 km/h.
+O carro Hatch acelerou e agora está a 40 km/h.
 O carro Sedan brecou e agora está a 20 km/h.
-O carro Hetch brecou e agora está a 0 km/h.
+O carro Hatch brecou e agora está a 0 km/h.
 ```
 
 ## Tecnologias utilizadas
 
 - C#
-- .NET
+- .NET 10
 - Console Application
+
+## Estrutura do projeto
+
+```text
+simulador-de-corrida/
+├── SimuladorDeCorrida.slnx          # Solution
+├── README.md
+├── .gitignore
+└── src/
+    └── SimuladorDeCorrida/          # Projeto console
+        ├── SimuladorDeCorrida.csproj
+        ├── Program.cs               # Ponto de entrada da aplicação
+        └── Models/
+            └── Carro.cs             # Entidade Carro (modelo + velocidade)
+```
 
 ## Como executar
 
-1. Clone ou baixe este repositório;
-2. Abra o projeto no Visual Studio ou no VS Code;
-3. Execute o projeto utilizando o terminal ou a opção de execução da IDE;
-4. Acompanhe o resultado exibido no console.
+Requisitos: [.NET SDK 10](https://dotnet.microsoft.com/download) instalado.
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/pedro-brasilio/simulador-de-corrida.git
+   cd simulador-de-corrida
+   ```
+2. Execute o projeto:
+   ```bash
+   dotnet run --project src/SimuladorDeCorrida
+   ```
+
+Também é possível abrir o arquivo `SimuladorDeCorrida.slnx` diretamente no Visual Studio ou no VS Code e executar pela IDE.
 
 ## Autor
 
